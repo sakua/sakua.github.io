@@ -1,0 +1,14 @@
+---
+layout: post
+title: FuelPHPではまったエラー Runtime Recoverable
+---
+WordPressとかでブログ構築してやってたけどフリーサーバがやばすぎて辞めました。そこでなんとなくですがGithubPagesを使ってブログやろうかな
+と思い少しの間ですが色々報告していきます。
+
+さて、私は今FuelPHPを触っているのですがデータベースからDBUtilを使ってデータを持ってくる際、タイトルのようなエラーが出てしまいました。
+
+
+下のほうを読んでいくと<code>Fuel\Core\Database_Result_Cached could not be converted to string</code>というのが見つかりstringが
+どうのこうのなんだなぁと思い色々検索しました。
+
+結果、<a href="http://fuelphp.com/forums/discussion/12007/newbie-errorexception-4096-when-trying-to-query-the-database">公式Forums</a>に乗ってました（但し英語）
